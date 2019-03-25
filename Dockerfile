@@ -42,6 +42,7 @@ RUN apk add --no-cache fontconfig && fc-cache -fv
 # Copy jars
 ##############################
 COPY postgresql-42.2.1.jar /root/postgresql-42.2.1.jar
+COPY mysql-8.0.15.jar /root/mysql-8.0.15.jar
 COPY schemaspy-6.0.0-rc2.jar /root/schemaspy-6.0.0-rc2.jar
 
 ##############################
